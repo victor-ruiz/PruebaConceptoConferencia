@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup id="tabgroup" height="Ti.UI.FILL">
+		<Tab id="tabPrograma" icon="images/stopwatch_32px.png">
+			<Require id="intinerario" src="intinerario" ></Require>
+		</Tab>
+		<Tab id="tabLugar" icon="images/museum_32px.png">
+			<Require id="lugar" src="lugar" ></Require>
+		</Tab>
+		<Tab id="tabLugar" icon="images/megaphone_32px.png">
+			<Window></Window>
+		</Tab>
+		<Tab id="tabLugar" icon="images/video-camera_32px.png">
+			<Window></Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

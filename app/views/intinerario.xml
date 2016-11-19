@@ -1,0 +1,21 @@
+<Alloy>
+	<Window  id="winPrograma" class="container" formFactor="handheld">
+		<Widget id="paging" src="de.manumaticx.pagingcontrol" onSelect="tabHandler"/>
+		<ScrollableView id="scrollableView">
+			<View id="view_dia1" title="Dia 1" backgroundColor="white">
+				<View  id="view_qr" class="view_btn_qr" onClick="accesoQR">
+					<Label class="lbl_qr" text="Leer QR" ></Label>
+				</View>
+				<View>
+					<TableView title="L('day1_caption')" id="day1table" class="table" onClick="table1click" onScroll="tablescroll"></TableView>
+				</View>
+			</View>
+			<View title="Dia 2" backgroundColor="white">
+				<TableView title="L('day2_caption')" id="day2table" class="table" onClick="table2click" onScroll="tablescroll"></TableView>
+			</View>
+			<View title="Dia 3" backgroundColor="white" >
+				<TableView title="L('day3_caption')" id="day3table" class="table" onClick="table3click" onScroll="tablescroll"></TableView>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>

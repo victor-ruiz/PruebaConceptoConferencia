@@ -1,0 +1,32 @@
+<Alloy>
+	<Window id="winLugar" >
+				<View class="viewTitulo" backgroundColor="white">
+					<Label class="lblTitulo"></Label>
+				</View>
+				<View class="viewImagen" backgroundColor="white">
+					<ImageView class="imagenView"></ImageView>
+				</View>
+				<View class = "viewDireccion" backgroundColor="gray">
+					<View class="viewImageDir">
+						<ImageView class="imageDir"></ImageView>
+					</View>
+					<View class="viewlblDir" onClick="clickmap">
+						<Label  id="lblDir" class ="lblDireccion"></Label>
+					</View>
+
+				</View>
+				<View class = "viewTelefono" backgroundColor="white">
+					<View class="viewImageTel">
+						<ImageView class="imageTel"></ImageView>
+					</View>
+					<View  id="viewlblTel" class="viewlblTel" onClick="onClickTel">
+						<Label id="lblTel" class = "lblTelefono"></Label>
+					</View>
+
+				</View>
+				<View class ="viewDescripcion" backgroundColor="white">
+					<Label class="lblDescripcion"></Label>
+				</View>
+
+			</Window>
+</Alloy>

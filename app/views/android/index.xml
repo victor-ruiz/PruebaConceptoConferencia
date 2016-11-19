@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="index">
+		<ActionBar displayHomeAsUp="true" title="Conferencia" icon="appicon"/>
+			<Require id="contenido" src="contenido"></Require>
+	</Window>
+</Alloy>
